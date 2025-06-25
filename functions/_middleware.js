@@ -89,7 +89,7 @@ export async function onRequest(context) {
       }
       
       // Create canonical URL
-      const canonicalOrigin = 'https://www.saxon-shore.com/prof/'; // Replace with your actual domain
+      const canonicalOrigin = 'https://www.saxon-shore.com/prof'; // Replace with your actual domain
       const canonicalUrl = `${canonicalOrigin}/${urlFormattedSite}/`;
       
       console.log('Generated canonical URL:', canonicalUrl);
